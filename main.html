@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music and Video Playlist</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+    <h1 style="text-align: center;">My Playlist</h1>
+
+    <h2 style="text-align: center;">Now Playing...</h2>
+
+    <div class="player_one">
+        <video controls width="400">
+            <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </video>
+    </div>
+
+    <h2 style="text-align: center;">MP3 songs</h2>
+
+    <div class="player_two">
+        <audio controls>
+            <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <h2>Songs Playlist</h2>
+    <ul>
+        <li><a href="#" target="_blank">Song 1</a></li>
+        <li><a href="#" target="_blank">Song 2</a></li>
+        <li><a href="#" target="_blank">Song 3</a></li>
+        <li><a href="#" target="_blank">Song 4</a></li>
+        <li><a href="#" target="_blank">Song 5</a></li>
+    </ul>
 </body>
-
 </html>

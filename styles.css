@@ -1,1 +1,29 @@
-/*  your css code here. If applicable */
+/* styles.css */
+
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; /* Center the players */
+    width: fit-content;  /* Adjust width to content */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    width: fit-content; /* Adjust width to content */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration-line: none;
+    color: blue; /* Style the links */
+}
